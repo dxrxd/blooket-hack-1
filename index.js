@@ -114,7 +114,7 @@
     render() {
       return e(
         'div',
-        {style: {height: '100vh', width: '100vw', position: 'absolute', top: '0', left: '0', background: 'https://pfps.gg/assets/pfps/5141-scarlxrd.png'}},
+        {style: {height: '100vh', width: '100vw', position: 'absolute', top: '0', left: '0', backgroundColor: 'black'}},
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '5px 0 5px 4px', cursor: 'pointer'}, onClick: launch}, 'Launch Hack'),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: addInjectable}, 'Add Injectable'),
@@ -296,7 +296,7 @@
               (new Function(text))();
 
               ModMenu.menuDiv = document.createElement('div');
-              ModMenu.divStyle = 'position: fixed; background: https://pfps.gg/assets/pfps/5141-scarlxrd.png; left: 0; bottom: 0; height: 35vh; width: 35vw; display: block; z-index: 99999; overflow-y: auto';
+              ModMenu.divStyle = 'position: fixed; background-color: black; left: 0; bottom: 0; height: 35vh; width: 35vw; display: block; z-index: 99999; overflow-y: auto';
               ModMenu.menuDiv.style = ModMenu.divStyle;
               document.body.appendChild(ModMenu.menuDiv);
 
