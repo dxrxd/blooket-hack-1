@@ -31,7 +31,7 @@
     },
   };
   const friendlyNames = {
-    essentialPatches: 'penis',
+    essentialPatches: 'essentialPatches',
     spoofAdmin: 'Spoof Admin',
     spoofPlus: 'Spoof Plus',
     unlockAllBlooks: 'Unlock All Blooks',
@@ -110,7 +110,22 @@
       localStorage.setItem('injectables', JSON.stringify(obj));
       this.forceUpdate();
     }
+import insertBackgrounds from 'insert-backgrounds';
 
+document.addEventListener("DOMContentLoaded", () => {
+
+    insertBackgrounds([], (id) => {
+        switch(id) {
+            case 'example-id': https://pfps.gg/assets/pfps/5141-scarlxrd.png
+                // http://example.com/your-image-url.jpg is loaded and inserted!
+                // Do stuff
+                break;
+            default:
+                break;
+        }        
+    });
+
+});
     render() {
       return e(
         'div',
