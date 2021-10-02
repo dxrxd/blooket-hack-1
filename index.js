@@ -1,6 +1,6 @@
 (async()=>{
   const defaultPrefs = {
-    essentialPatches: true,
+    penis: true,
     spoofAdmin: false,
     spoofPlus: false,
     unlockAllBlooks: false,
