@@ -31,7 +31,7 @@
     },
   };
   const friendlyNames = {
-    essentialPatches: 'essentialPatches',
+    essentialPatches: 'Essential Patches',
     spoofAdmin: 'Spoof Admin',
     spoofPlus: 'Spoof Plus',
     unlockAllBlooks: 'Unlock All Blooks',
