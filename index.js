@@ -31,7 +31,7 @@
     },
   };
   const friendlyNames = {
-    essentialPatches: 'essentialPatches',
+    essentialPatches: 'penis',
     spoofAdmin: 'Spoof Admin',
     spoofPlus: 'Spoof Plus',
     unlockAllBlooks: 'Unlock All Blooks',
