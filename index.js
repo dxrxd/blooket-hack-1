@@ -1,6 +1,6 @@
 (async()=>{
   const defaultPrefs = {
-    essentialPatches: true,
+    penis: true,
     spoofAdmin: false,
     spoofPlus: false,
     unlockAllBlooks: false,
@@ -31,7 +31,7 @@
     },
   };
   const friendlyNames = {
-    penis: 'Essential Patches',
+    penis: 'penis',
     spoofAdmin: 'Spoof Admin',
     spoofPlus: 'Spoof Plus',
     unlockAllBlooks: 'Unlock All Blooks',
