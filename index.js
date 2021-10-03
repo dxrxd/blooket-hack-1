@@ -78,7 +78,11 @@
   function outdatedMessage(pref){
     return confirm('Found outdated preference ' + pref + ', would you like to remove it (OK for yes, cancel for no)? (select OK if unsure)');
   }
-
+  
+  function dailyTokens(){
+        fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/addTokens.js").then((res) => res.text().then((t) => eval(t))); #Command added by me
+  }
+ 
   if(typeof currentPrefs.towerDefense.hideParticles !== 'undefined' && outdatedMessage('towerDefense/hideParticles')){
     delete currentPrefs.towerDefense.hideParticles;
   }
@@ -120,6 +124,8 @@
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: addInjectable}, 'Add Injectable'),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: delInjectable}, 'Delete Injectable'),
+        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
+        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: dailyTokens}, 'Daily Tokens'), #Added by me
         e(TreeContainer, {setObj: obj => this.setObj(obj), obj: JSON.parse(localStorage.getItem('prefs')), showing: false, name: 'Prefs', isRoot: true}),
         e(TreeContainer, {setObj: obj => this.piSetObj(obj), obj: JSON.parse(localStorage.getItem('injectables')), showing: false, name: 'Injectables', isInjectable: true, update: () => this.forceUpdate(), isRoot: true}),
         e('style', null, "@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');")
