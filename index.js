@@ -21,6 +21,7 @@
       customMaps: {
         islands: false,
         volatileVolcano: false,
+        darkMeadow: false,
       },
     },
     factory: {
@@ -50,6 +51,7 @@
     'towerDefense/removeObstacles': 'Remove Obstacles',
     'towerDefense/customMaps': 'Custom Maps',
     'towerDefense/customMaps/islands': 'Islands (Piotr)',
+    'towerDefense/customMaps/darkMeadow': 'Dark Meadow (Dark)',
     'towerDefense/customMaps/volatileVolcano': 'Volatile Volcano (Cheese)',
     factory: 'Factory',
     'factory/alwaysGetMegaBot': 'Always Get Mega Bot',
