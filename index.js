@@ -18,10 +18,6 @@
       sellAtFullPrice: false,
       unlockAllTowers: false,
       removeObstacles: false,
-      darkMode: {
-        lostDesert: false,
-        darkMeadow: false,
-        abandonedMine: false,
       customMaps: {
         islands: false,
         volatileVolcano: false,
@@ -53,10 +49,6 @@
     'towerDefense/sellAtFullPrice': 'Sell at Full Price',
     'towerDefense/unlockAllTowers': 'Unlock All Towers',
     'towerDefense/removeObstacles': 'Remove Obstacles',
-    'towerDefense/darkMode': 'Dark Mode',
-    'towerDefense/darkMode/lostDesert': 'Lost Desert',
-    'towerDefense/darkMode/darkMeadow': 'Dark Meadow',
-    'towerDefense/darkMode/abandonedMine': 'Abandoned Mine',
     'towerDefense/customMaps': 'Custom Maps',
     'towerDefense/customMaps/islands': 'Islands (Piotr)',
     'towerDefense/customMaps/glitchyMeadow': 'Glitchy Meadow (Glitchy)',
