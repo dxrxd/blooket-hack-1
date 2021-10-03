@@ -25,8 +25,8 @@
     },
     customMaps: {
         islands: false,
-        volatileVolcano: false,
         glitchyMeadow: false,
+        volatileVolcano: false,
       },
     },
     factory: {
