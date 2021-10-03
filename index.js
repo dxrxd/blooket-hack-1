@@ -22,7 +22,8 @@
         lostDesert: false,
         darkMeadow: false,
         abandonedMine: false,
-      customMaps: {
+       },
+       customMaps: {
         islands: false,
         volatileVolcano: false,
         glitchyMeadow: false,
