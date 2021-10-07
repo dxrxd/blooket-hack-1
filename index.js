@@ -103,17 +103,17 @@
   }
   
     
-  function Account1(){
+  function blooketAccA(){
         localStorage.token="JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSm9lbWFtYUVaWlpaIiwic3RyaXBlIjoiY3VzX0tNVGRaaXVXRGpoTExKIiwicGxhbiI6IlN0YXJ0ZXIiLCJnYW1lc1BsYXllZCI6MCwiZW1haWwiOiJ0YXNoYXVubWlsZXMyQGdtYWlsLmNvbSIsImRhdGVDcmVhdGVkIjoiMjAyMS0xMC0wN1QwMDo0MTo0MC45MjNaIiwicm9sZSI6IlN0dWRlbnQiLCJoYXNQYXNzd29yZCI6ZmFsc2UsImlhdCI6MTYzMzU2NzMwMywiZXhwIjoxNjM0MTcyMTAzfQ.5dcraRWYi1lbrcaeBCK0ziYxaovdxnXisMldUzpfO3Q"
   }
   
     
-  function Account2(){
+  function blooketAccB(){
         localStorage.token="JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVGFzaGF1bk0iLCJzdHJpcGUiOiJjdXNfSzlENEl4QktmV0FKTHIiLCJwbGFuIjoiU3RhcnRlciIsImdhbWVzUGxheWVkIjozMiwiZW1haWwiOiJtaWxlc3RAc3R1ZGVudHMudXBzZC5vcmciLCJkYXRlQ3JlYXRlZCI6IjIwMjEtMDktMDFUMTQ6NDI6MjMuMTkyWiIsInJvbGUiOiJTdHVkZW50IiwiaGFzUGFzc3dvcmQiOnRydWUsImlhdCI6MTYzMzU2NzA3MCwiZXhwIjoxNjM0MTcxODcwfQ.h76v6UAIr4bzpNSO-XlohoW_FxO1SQxMAIZV91MOV74"
   }
   
     
-  function Account3(){
+  function blooketAccC(){
         localStorage.token="JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidGhpenprIiwic3RyaXBlIjoiY3VzX0tNVGd0RHM2UG9ZNHdOIiwicGxhbiI6IlN0YXJ0ZXIiLCJnYW1lc1BsYXllZCI6MCwiZW1haWwiOiJ0YXNoYXVubWlsZXMzQGdtYWlsLmNvbSIsImRhdGVDcmVhdGVkIjoiMjAyMS0xMC0wN1QwMDo0NDozMC41MTNaIiwicm9sZSI6IlN0dWRlbnQiLCJoYXNQYXNzd29yZCI6ZmFsc2UsImlhdCI6MTYzMzU2NzUzMSwiZXhwIjoxNjM0MTcyMzMxfQ.xe2z7kbmJHRC1Sgrguv55fz2AHbYkY9ENsMFEanXFBM"
   }
   
@@ -164,12 +164,12 @@
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: autofillToken}, 'Autofill Token'),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: blooketBruteForcer}, 'Blooket BruteForcer'),
-                e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
-        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: Account1}, 'Blooket Account 1'),
-                e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
-        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: Account2}, 'Blooket Account 2 '),
-                e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
-        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: Account3}, 'Blooket Account 3'),
+        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
+        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: blooketAccA}, 'Account 1'),
+        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
+        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: blooketAccB}, 'Account 2'),
+        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
+        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: blooketAccC}, 'Account 3'),
         e(TreeContainer, {setObj: obj => this.setObj(obj), obj: JSON.parse(localStorage.getItem('prefs')), showing: false, name: 'Prefs', isRoot: true}),
         e(TreeContainer, {setObj: obj => this.piSetObj(obj), obj: JSON.parse(localStorage.getItem('injectables')), showing: false, name: 'Injectables', isInjectable: true, update: () => this.forceUpdate(), isRoot: true}),
         e('style', null, "@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');")
