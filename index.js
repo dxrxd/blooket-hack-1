@@ -102,17 +102,14 @@
         window.open("https://replit.com/@mikeylmao/Blooket-pass-finder", "", "width=1550,height=1000,left=0");
   }
   
-    
   function blooketAccA(){
         localStorage.token="JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSm9lbWFtYUVaWlpaIiwic3RyaXBlIjoiY3VzX0tNVGRaaXVXRGpoTExKIiwicGxhbiI6IlN0YXJ0ZXIiLCJnYW1lc1BsYXllZCI6MCwiZW1haWwiOiJ0YXNoYXVubWlsZXMyQGdtYWlsLmNvbSIsImRhdGVDcmVhdGVkIjoiMjAyMS0xMC0wN1QwMDo0MTo0MC45MjNaIiwicm9sZSI6IlN0dWRlbnQiLCJoYXNQYXNzd29yZCI6ZmFsc2UsImlhdCI6MTYzMzU2NzMwMywiZXhwIjoxNjM0MTcyMTAzfQ.5dcraRWYi1lbrcaeBCK0ziYxaovdxnXisMldUzpfO3Q"
   }
   
-    
   function blooketAccB(){
         localStorage.token="JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVGFzaGF1bk0iLCJzdHJpcGUiOiJjdXNfSzlENEl4QktmV0FKTHIiLCJwbGFuIjoiU3RhcnRlciIsImdhbWVzUGxheWVkIjozMiwiZW1haWwiOiJtaWxlc3RAc3R1ZGVudHMudXBzZC5vcmciLCJkYXRlQ3JlYXRlZCI6IjIwMjEtMDktMDFUMTQ6NDI6MjMuMTkyWiIsInJvbGUiOiJTdHVkZW50IiwiaGFzUGFzc3dvcmQiOnRydWUsImlhdCI6MTYzMzU2NzA3MCwiZXhwIjoxNjM0MTcxODcwfQ.h76v6UAIr4bzpNSO-XlohoW_FxO1SQxMAIZV91MOV74"
   }
   
-    
   function blooketAccC(){
         localStorage.token="JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidGhpenprIiwic3RyaXBlIjoiY3VzX0tNVGd0RHM2UG9ZNHdOIiwicGxhbiI6IlN0YXJ0ZXIiLCJnYW1lc1BsYXllZCI6MCwiZW1haWwiOiJ0YXNoYXVubWlsZXMzQGdtYWlsLmNvbSIsImRhdGVDcmVhdGVkIjoiMjAyMS0xMC0wN1QwMDo0NDozMC41MTNaIiwicm9sZSI6IlN0dWRlbnQiLCJoYXNQYXNzd29yZCI6ZmFsc2UsImlhdCI6MTYzMzU2NzUzMSwiZXhwIjoxNjM0MTcyMzMxfQ.xe2z7kbmJHRC1Sgrguv55fz2AHbYkY9ENsMFEanXFBM"
   }
