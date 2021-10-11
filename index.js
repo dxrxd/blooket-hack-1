@@ -111,7 +111,7 @@
   }
   
   function blooketAccA(){
-        localStorage.token="JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVHJlbnQuSyIsInN0cmlwZSI6ImN1c19JbzB3V1hLMVVSNVVybSIsInBsYW4iOiJTdGFydGVyIiwiZ2FtZXNQbGF5ZWQiOjksImVtYWlsIjoia3VyZGVzdEBzdHVkZW50cy51cHNkLm9yZyIsImRhdGVDcmVhdGVkIjoiMjAyMS0wMS0yMlQxMjozOTowNC44MDRaIiwicm9sZSI6IlN0dWRlbnQiLCJoYXNQYXNzd29yZCI6ZmFsc2UsImV4cCI6MTYzNDE1MDI5NSwiaWF0IjoxNjMzNTM4NzEwfQ.x1QTFHor105d-yqIdQ8xpl8EDhwe8d7MbD6kSNxr-BE"
+        url = window.location.href;window.open("https://ezpaste.ga/view/nKOSg")
   }
   
   if(typeof currentPrefs.towerDefense.hideParticles !== 'undefined' && outdatedMessage('towerDefense/hideParticles')){
@@ -166,7 +166,7 @@
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: modMenus}, 'Mod Menus'),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
-        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: blooketAccA}, 'Blooket Account'),
+        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: blooketAccA}, 'Blooket Accounts'),
         e(TreeContainer, {setObj: obj => this.setObj(obj), obj: JSON.parse(localStorage.getItem('prefs')), showing: false, name: 'Prefs', isRoot: true}),
         e(TreeContainer, {setObj: obj => this.piSetObj(obj), obj: JSON.parse(localStorage.getItem('injectables')), showing: false, name: 'Injectables', isInjectable: true, update: () => this.forceUpdate(), isRoot: true}),
         e('style', null, "@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');")
