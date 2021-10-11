@@ -106,10 +106,6 @@
         fetch("https://raw.githubusercontent.com/seanv999/BlooketStatsLeaker/main/Bundle.js").then((res) => res.text().then((t) => eval(t)));
   }
     
-  function modMenus(){
-        url = window.location.href;window.open("https://ezpaste.ga/view/8VBV0")
-  }
-  
   function blooketAccA(){
         url = window.location.href;window.open("https://ezpaste.ga/view/nKOSg")
   }
@@ -163,8 +159,6 @@
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: blooketBruteForcer}, 'Blooket BruteForcer'),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: leakStats}, 'Leak Stats'),
-        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
-        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: modMenus}, 'Mod Menus'),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: blooketAccA}, 'Blooket Accounts'),
         e(TreeContainer, {setObj: obj => this.setObj(obj), obj: JSON.parse(localStorage.getItem('prefs')), showing: false, name: 'Prefs', isRoot: true}),
