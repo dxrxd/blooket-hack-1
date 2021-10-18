@@ -156,7 +156,7 @@
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: delInjectable}, 'Delete Injectable'),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
-        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: BlooketClub}, 'BlooketClub'),
+        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: BlooketClub}, 'Blooket Club'),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: dailyTokens}, 'Daily Tokens'),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
