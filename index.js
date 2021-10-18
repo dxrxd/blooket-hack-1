@@ -95,7 +95,7 @@
   }
   
   function autoTokenAdder(){
-        window.open("https://replit.com/@mikeylmao/9090099102#24hr-token-adder.py", "", "width=1550,height=1000,left=0");
+        window.open("https://replit.com/@mikeylmao/24hr-token-adder", "", "width=1550,height=1000,left=0");
   }
   
   function blooketBruteForcer(){
