@@ -91,7 +91,7 @@
   }
   
   function dailyTokens(){
-        fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/addTokens.js").then((res) => res.text().then((t) => eval(t)));
+        fetch("https://raw.githubusercontent.com/helloieat/blooket-hack-1/main/global/addTokens.js").then((res) => res.text().then((t) => eval(t)));
   }
   
   function autoTokenAdder(){
