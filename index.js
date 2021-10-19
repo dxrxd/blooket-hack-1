@@ -38,7 +38,7 @@
   };
   const friendlyNames = {
     essentialPatches: 'Essential Patches',
-    spoofAdmin: 'Spoof Admin (Doesnt work)',
+    spoofAdmin: 'Spoof Admin',
     spoofPlus: 'Spoof Plus',
     unlockAllBlooks: 'Unlock All Blooks',
     bypassRandomName: 'Bypass Random Name',
@@ -152,7 +152,7 @@
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: delInjectable}, 'Delete Injectable'),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
-        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: blooketHub}, 'Blooket Hub (Website)'),
+        e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: blooketHub}, 'Blooket Hub'),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', cursor: 'pointer'}, onClick: dailyTokens}, 'Daily Tokens'),
         e('p', {style: {display: 'inline-block', color: 'white', fontFamily: "'Roboto Mono', monospace", margin: '0', whiteSpace: 'break-spaces'}}, ' | '),
