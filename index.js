@@ -38,7 +38,7 @@
   };
   const friendlyNames = {
     essentialPatches: 'Essential Patches',
-    spoofAdmin: 'Spoof Admin',
+    spoofAdmin: 'Spoof Admin (Doesnt work)',
     spoofPlus: 'Spoof Plus',
     unlockAllBlooks: 'Unlock All Blooks',
     bypassRandomName: 'Bypass Random Name',
