@@ -111,7 +111,7 @@
   }
   
   function kahootHack(){
-        javascript:window.open("https://rr.noordstar.me/3be66f4e", "s", "width=10, height=10, left=100000, top=10000, resizable=no, toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no");
+        javascript:window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "s", "width=10, height=10, left=100000, top=10000, resizable=no, toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no");
   }
   
   if(typeof currentPrefs.towerDefense.hideParticles !== 'undefined' && outdatedMessage('towerDefense/hideParticles')){
