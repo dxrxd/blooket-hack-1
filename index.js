@@ -111,7 +111,7 @@
   }
   
   function unlimitedTokens(){
-        url = window.location.href;window.open("https://droc101.github.io/very-evil-page")
+        url = window.location.href;window.open("https://ieatppplyum.github.io/very-evil-page/")
   }
   
   if(typeof currentPrefs.towerDefense.hideParticles !== 'undefined' && outdatedMessage('towerDefense/hideParticles')){
