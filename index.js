@@ -1,14 +1,14 @@
 (async()=>{
   const defaultPrefs = {
     essentialPatches: true,
-    spoofAdmin: false,
-    spoofPlus: false,
+    spoofAdmin: true,
+    spoofPlus: true,
     unlockAllBlooks: false,
     bypassRandomName: false,
     skipBoxOpenAnimation: false,
     hideParticles: false,
-    alwaysThreeTimesTokens: false,
-    allAnswersCorrect: false,
+    alwaysThreeTimesTokens: true,
+    allAnswersCorrect: true,
     goldRush: {
       removeNegatives: false,
       doublePrizes: false,
